@@ -1,9 +1,6 @@
 # 로컬 전용 자동화 도구 (개인 스크립트, 자동 스크래핑 등)
 local-only/
 
-# 로컬 전용 파일
-my_design_flow_skill_flow.svg
-
 # OS 파일
 .DS_Store
 Thumbs.db
