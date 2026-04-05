@@ -195,10 +195,9 @@ Checks for existing similar components when a new component file is added.
 
 ---
 
-<details>
-<summary><h1>한국어 (Korean)</h1></summary>
+# 한국어 (Korean)
 
-# Design Workflow Plugin for Claude Code
+## Design Workflow Plugin for Claude Code
 
 바이브코딩에서 내가 만족할 만한 디자인 품질을 달성하기 위한 워크플로우 플러그인.
 
@@ -387,5 +386,3 @@ UI 파일 수정 시 knowledge-base 업데이트가 필요한 파일에 `SYNC_NE
 ## 라이선스
 
 [MIT License](../LICENSE)
-
-</details>
