@@ -70,7 +70,13 @@ The plugin guides you to collect design references (screenshots, moodboards) and
 
 ## Installation
 
-### Plugin Install
+### 1. Add Marketplace (first time only)
+
+```bash
+claude plugin marketplace add hye-on/ai-builder-marketplace
+```
+
+### 2. Install Plugin
 
 ```bash
 claude plugin install my-design-flow-skills
@@ -80,13 +86,6 @@ claude plugin install my-design-flow-skills
 
 ```bash
 claude --plugin-dir ./design-workflow-plugin
-```
-
-### Manual Install (Copy)
-
-```bash
-git clone https://github.com/hye-on/my-design-flow-skills.git /tmp/my-design-flow-skills
-cp -r /tmp/my-design-flow-skills/ ~/.claude/plugins/my-design-flow-skills/
 ```
 
 ---
@@ -264,7 +263,13 @@ AI와 함께 UI를 만들 때 흔히 발생하는 문제들 — 일관성 없는
 
 ## 설치 방법
 
-### 플러그인 설치
+### 1. 마켓플레이스 등록 (최초 1회)
+
+```bash
+claude plugin marketplace add hye-on/ai-builder-marketplace
+```
+
+### 2. 플러그인 설치
 
 ```bash
 claude plugin install my-design-flow-skills
@@ -274,13 +279,6 @@ claude plugin install my-design-flow-skills
 
 ```bash
 claude --plugin-dir ./design-workflow-plugin
-```
-
-### 수동 설치 (복사 방식)
-
-```bash
-git clone https://github.com/hye-on/my-design-flow-skills.git /tmp/my-design-flow-skills
-cp -r /tmp/my-design-flow-skills/ ~/.claude/plugins/my-design-flow-skills/
 ```
 
 ---
